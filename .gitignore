@@ -1,0 +1,12 @@
+
+[A*.class
+*.log
+*.jar
+*.war
+*.ear
+bin/
+target/
+out/
+.idea/
+*.iml
+.vscode/
