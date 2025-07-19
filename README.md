@@ -1,91 +1,91 @@
-# Quản Lý Bán Vé Tàu 🚆
+# Train Ticket Sales Management 🚆
 
-> Ứng dụng Java Swing hỗ trợ quản lý đặt vé tàu, đổi/trả vé, xuất hóa đơn và thống kê doanh thu.
-
----
-
-## 📋 Tính năng chính
-
-- Đặt vé tàu theo chuyến, ngày, toa và ghế
-- Quản lý thông tin vé, chuyến tàu, khách hàng
-- Chức năng đổi vé, trả vé, xuất hóa đơn (PDF)
-- Thống kê số lượng vé, doanh thu theo tháng/năm
-- Giao diện thân thiện sử dụng Java Swing
-- Kết nối cơ sở dữ liệu SQL Server
+> A Java Swing application that supports train ticket booking management, ticket exchange/refund, invoice generation, and revenue statistics..
 
 ---
 
-## 🛠️ Công nghệ sử dụng
+## 📋 Main Features
+
+- Book train tickets by route, date, carriage, and seat
+- Manage ticket information, train routes, and customer data
+- Support for ticket exchange, refund, and invoice export (PDF)
+- Generate statistics on ticket quantity and revenue by month/year
+- User-friendly interface built with Java Swing
+- Connected to SQL Server database
+
+---
+
+## 🛠️ Technologies Used
 
 - **Java SE 8+**
 - **Java Swing (GUI)**
 - **SQL Server** (.bacpac)
-- Thư viện hỗ trợ:
+- Supporting libraries:
   - `jgoodies-forms`
   - `miglayout`
   - `jcalendar`
 
 ---
 
-## 🗂️ Cấu trúc thư mục
+## 🗂️  Project Structure
 
 ```bash
 QuanLyBanVeTau/
 │
-├── src/ # Mã nguồn chính (Java)
-├── bin/ # File đã biên dịch (.class)
-├── lib/ # Thư viện JAR
-├── images/, icons/ # Ảnh và biểu tượng giao diện
-├── HoaDonBanVe.pdf # Mẫu hóa đơn bán vé
-├── HoaDonDoiTraVeTau.pdf # Mẫu hóa đơn đổi/trả
-├── .classpath, .project # File cấu hình Eclipse
-└── .settings/ # Cấu hình IDE
+├── src/ # Main Java source code)
+├── bin/ # Compiled .class files  
+├── lib/ # JAR libraries
+├── images/, icons/ # UI images and icons
+├── HoaDonBanVe.pdf # Sample booking invoice
+├── HoaDonDoiTraVeTau.pdf # Sample exchange/refund invoice
+├── .classpath, .project # Eclipse configuration files
+└── .settings/ # IDE settings
 ```
 
 ---
 
-## 🚀 Hướng dẫn chạy ứng dụng
+## 🚀 Getting Started
 
-### 1. Cài đặt
+### 1.  Installation
 
-- Cài **JDK 8 trở lên**
-- Sử dụng **IDE như Eclipse** hoặc chạy từ dòng lệnh
+- Install JDK 8 or later
+- Use an IDE such as Eclipse or run from terminal
 
-### 2. Thiết lập database
+### 2. Database Setup
 
-- Import file `database_QuanLyVeTau.bacpac` vào **SQL Server Management Studio**
-- Cập nhật chuỗi kết nối DB trong file Java (thường ở `DBConnection.java` hoặc tương tự)
+- Import database_QuanLyVeTau.bacpac into SQL Server Management Studio
+- Update the database connection string in your Java file (usually DBConnection.java or similar)
 
-### 3. Chạy ứng dụng
+### 3. Run the Application
 
-- Mở project bằng Eclipse hoặc IntelliJ
-- Build và chạy lớp `Main.java` trong thư mục `src/`
-
----
-
-## 📄 Hóa đơn mẫu
-
-- `HoaDonBanVe.pdf`: Mẫu hóa đơn đặt vé
-- `HoaDonDoiTraVeTau.pdf`: Mẫu hóa đơn đổi/trả
+- Open the project in Eclipse or IntelliJ
+- Build and run Main.java located in the src/ directory
 
 ---
 
-## 📦 Các phụ thuộc (.jar)
+## 📄  Sample Invoices
 
-Các thư viện cần thiết đã có sẵn trong thư mục `lib/`:
+- `HoaDonBanVe.pdf`: Sample booking invoice
+- `HoaDonDoiTraVeTau.pdf`: Sample exchange/refund invoice
+
+---
+
+## 📦 Dependencies (.jar)
+
+All required libraries are available in the lib/ directory:
 
 - `jgoodies-forms-1.8.0.jar`
 - `jgoodies-common-1.8.0.jar`
 - `miglayout15-swing.jar`
 - `jcalendar-1.4.jar`
 
-> Đảm bảo thư viện đã được add vào Build Path (trong Eclipse hoặc IDE bạn dùng)
+> Ensure all libraries are added to your Build Path in Eclipse or your IDE of choice.
 
 ---
 
-## 📬 Liên hệ
+## 📬 Contact
 
-> Được phát triển bởi: **LePhuocThai2502**  
+> Developed by:  **LePhuocThai2502**  
 > GitHub: [https://github.com/LePhuocThai2502](https://github.com/LePhuocThai2502)
 
 ---
